@@ -10,6 +10,11 @@ public class GameSession {
     public GameSession() {
     }
 
+    public GameSession(int id, LocalDateTime gameEndDate) {
+        this.id = id;
+        this.gameEndDate = gameEndDate;
+    }
+
     public int getId() {
         return id;
     }

@@ -9,6 +9,12 @@ public class PlayedCharacter {
     public PlayedCharacter() {
     }
 
+    public PlayedCharacter(int id, String playerName, int characterId) {
+        this.id = id;
+        this.playerName = playerName;
+        this.characterId = characterId;
+    }
+
     public int getId() {
         return id;
     }
