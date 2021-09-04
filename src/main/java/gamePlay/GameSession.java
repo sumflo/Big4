@@ -1,9 +1,11 @@
 package gamePlay;
 
+import java.time.LocalDateTime;
+
 public class GameSession {
 
     private int id;
-    private String gameEndDate;
+    private LocalDateTime gameEndDate;
 
     public GameSession() {
     }
@@ -16,11 +18,11 @@ public class GameSession {
         this.id = id;
     }
 
-    public String getGameEndDate() {
+    public LocalDateTime getGameEndDate() {
         return gameEndDate;
     }
 
-    public void setGameEndDate(String gameEndDate) {
+    public void setGameEndDate(LocalDateTime gameEndDate) {
         this.gameEndDate = gameEndDate;
     }
 }
