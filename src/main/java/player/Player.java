@@ -1,9 +1,9 @@
 package player;
 
 public class Player {
-    String userName;
-    String emailAddress;
-    String reg_date;
+    public String userName;
+    public String emailAddress;
+    public String reg_date;
 
     public Player() {
         this.userName = userName;
