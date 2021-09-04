@@ -10,6 +10,22 @@ public class PlayableCharacter {
     private String characterSkill2;
     private String characterSkill3;
 
+    public PlayableCharacter() {
+    }
+
+    public PlayableCharacter(String characterName, CharacterClass characterClass, CharacterRace characterRace) {
+        this.characterName = characterName;
+        this.characterClass = characterClass;
+        this.characterRace = characterRace;
+    }
+
+    public PlayableCharacter(long characterID, String characterName, CharacterClass characterClass, CharacterRace characterRace) {
+        this.characterID = characterID;
+        this.characterName = characterName;
+        this.characterClass = characterClass;
+        this.characterRace = characterRace;
+    }
+
     public long getCharacterID() {
         return characterID;
     }

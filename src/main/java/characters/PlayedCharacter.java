@@ -1,6 +1,6 @@
 package characters;
 
-public class PlayedCharacter {
+public class  PlayedCharacter {
 
     private int id;
     private String playerName;
